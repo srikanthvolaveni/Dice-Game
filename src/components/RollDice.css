@@ -1,0 +1,36 @@
+.roll-dice{
+    display: flex;
+    flex-direction: column nowrap;
+    min-height: 100vh;
+}
+
+.rolldice-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.roll-button{
+    align-self: center;
+    height: 40px;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    background-color: orchid;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.roll-button:hover{
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+
+.score{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
